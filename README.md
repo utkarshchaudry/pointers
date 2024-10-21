@@ -91,3 +91,21 @@ int main()
 
 ## Conclusion:-
 In this experiment we learnt the basics of pointers We learnt how to create and print an array using pointers
+
+
+# Experiment 10: Study and Implementation of Pointer Operations (Call by Value and Call by Reference)
+
+## Aim
+To execute and understand the use of call by value and call by reference in C++ programming.
+
+## Theory
+The table below outlines the key differences between **call by value** and **call by reference** in C++:
+
+| **Feature**              | **Call by Value**                                    | **Call by Reference**                                    |
+|-------------------------|------------------------------------------------------|----------------------------------------------------------|
+| **Definition**           | A copy of the argument’s value is passed to the function. | The actual memory address of the argument is passed to the function. |
+| **Impact on Arguments**  | Modifications inside the function do not affect the original argument. | Any change inside the function directly alters the original argument. |
+| **Memory Consumption**   | Requires more memory, as a new copy of the data is created. | More memory-efficient since no copy is made, only the reference is passed. |
+| **Performance**          | May be slower when dealing with large data sets due to the overhead of copying. | Typically faster, especially for larger data, since no duplication occurs. |
+| **Syntax**               | Involves passing the value directly (e.g., `function(x)`). | Uses the reference operator `&` in the function signature (e.g., `function(int &x)`). |
+| **Data Safety**          | Safer as the original data cannot be altered inadvertently. | Riskier, as direct access to the original data might lead to unintentional modifications. |
