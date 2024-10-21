@@ -86,3 +86,5 @@ int main()
     return 0;
 }
 ```
+## Conclusion:-
+In this experiment we learnt the basics of pointers We learnt how to create and print an array using pointers
