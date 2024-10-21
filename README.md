@@ -30,7 +30,8 @@ Pointers are symbolic representations of memory addresses, allowing programs to 
 - Iterating over elements in arrays or data structures
 
 - ## Code:-
-- // utkarsh chaudhary
+```
+// utkarsh chaudhary
 // 23070123146
 
 #include <iostream>
@@ -84,3 +85,4 @@ int main()
 
     return 0;
 }
+```
