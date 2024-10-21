@@ -86,5 +86,8 @@ int main()
     return 0;
 }
 ```
+## Code Output:-
+![image](https://github.com/user-attachments/assets/13690101-4279-4823-91a5-54ba0e4b6c7d)
+
 ## Conclusion:-
 In this experiment we learnt the basics of pointers We learnt how to create and print an array using pointers
